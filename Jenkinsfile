@@ -30,5 +30,11 @@ pipeline {
       }
     }
 
+    stage('finish') {
+      steps {
+        echo 'rinning finished'
+      }
+    }
+
   }
 }
